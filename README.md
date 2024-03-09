@@ -40,7 +40,7 @@ Proyek ini merupakan bagian dari Problem Based Learning (PBL) yang di selengarak
     - Github: 
 
 6. *Anggota Tim 5*
-    - Nama: Agung
+    - Nama: Agung Ramadhani Eka Setia 
     - Nim: 4342311046
     - Peran: -
     - Kelas: TRPL 2B Malam
