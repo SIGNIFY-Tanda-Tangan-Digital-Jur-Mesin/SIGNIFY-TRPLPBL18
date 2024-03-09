@@ -9,19 +9,19 @@ Proyek ini merupakan bagian dari Problem Based Learning (PBL) yang di selengarak
     - Nim: 4342311044
     - Peran: Frontend
     - Kelas: TRPL 2B Malam
-    - Github: Syifarfifha ((https://github.com/syifarfifah)
+    - Github: Syifarfifah ((https://github.com/syifarfifah)
 
 2. *Anggota Tim 1*
     - Nama: Rizwal Pratama Putra
     - Nim: 4342311034
     - Peran: Backend
     - Kelas: TRPL 2B Malam
-    - Github: 
+    - Github: rizwal118 (https://github.com/rizwal18)
 
 3. *Anggota Tim 2*
-    - Nama: Faiza Irna
+    - Nama: Faiza Irna Harahap
     - Nim: 4342311051
-    - Peran: -
+    - Peran: RPP, SKPPL
     - Kelas: TRPL 2B Malam
     - Github: zaa21 (https://github.com/zaa21)
 
@@ -30,21 +30,21 @@ Proyek ini merupakan bagian dari Problem Based Learning (PBL) yang di selengarak
     - Nim: 4342311041
     - Peran: -
     - Kelas: TRPL 2B Malam
-    - Github:
+    - Github:AbellinoPaichan (https://github.com/AbellinoPaichan)
 
 5. *Anggota Tim 4*
     - Nama: Irvan Bakkara
     - Nim: 4342311057
-    - Peran: Frontend
+    - Peran: UI / UX 
     - Kelas: TRPL 2B Malam
     - Github: 
 
 6. *Anggota Tim 5*
     - Nama: Agung
     - Nim: 4342311046
-    - Peran: Backend
+    - Peran: -
     - Kelas: TRPL 2B Malam
-    - Github:
+    - Github:Agungramadhani72 (https://github.com/Agungramadhani72)
 
 ## Struktur Proyek
 under construction
