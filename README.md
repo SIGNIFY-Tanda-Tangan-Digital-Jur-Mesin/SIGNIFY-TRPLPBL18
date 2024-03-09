@@ -20,7 +20,7 @@ Proyek ini merupakan bagian dari Problem Based Learning (PBL) yang di selengarak
 
 3. *Anggota Tim 2*
     - Nama: Faiza Irna
-    - Nim: 43423110
+    - Nim: 4342311051
     - Peran: -
     - Kelas: TRPL 2B Malam
     - Github: zaa21 (https://github.com/zaa21)
@@ -34,14 +34,14 @@ Proyek ini merupakan bagian dari Problem Based Learning (PBL) yang di selengarak
 
 5. *Anggota Tim 4*
     - Nama: Irvan Bakkara
-    - Nim: 43423110
+    - Nim: 4342311057
     - Peran: Frontend
     - Kelas: TRPL 2B Malam
     - Github: 
 
 6. *Anggota Tim 5*
     - Nama: Agung
-    - Nim: 43423110
+    - Nim: 4342311046
     - Peran: Backend
     - Kelas: TRPL 2B Malam
     - Github:
