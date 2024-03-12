@@ -7,14 +7,14 @@ Proyek ini merupakan bagian dari Problem Based Learning (PBL) yang di selengarak
 1. *Ketua Tim*
     - Nama:  Syifa Rafifah
     - Nim: 4342311044
-    - Peran: Frontend
+    - Peran: Backend
     - Kelas: TRPL 2B Malam
     - Github: Syifarfifah ((https://github.com/syifarfifah)
 
 2. *Anggota Tim 1*
     - Nama: Rizwal Pratama Putra
     - Nim: 4342311034
-    - Peran: Backend
+    - Peran: Frontend
     - Kelas: TRPL 2B Malam
     - Github: rizwal118 (https://github.com/rizwal18)
 
@@ -28,7 +28,7 @@ Proyek ini merupakan bagian dari Problem Based Learning (PBL) yang di selengarak
 4. *Anggota Tim 3*
     - Nama: Abellino Paichan
     - Nim: 4342311041
-    - Peran: -
+    - Peran: SKPPL
     - Kelas: TRPL 2B Malam
     - Github:AbellinoPaichan (https://github.com/AbellinoPaichan)
 
@@ -42,7 +42,7 @@ Proyek ini merupakan bagian dari Problem Based Learning (PBL) yang di selengarak
 6. *Anggota Tim 5*
     - Nama: Agung Ramadhani Eka Setia 
     - Nim: 4342311046
-    - Peran: -
+    - Peran: SKPPL
     - Kelas: TRPL 2B Malam
     - Github:Agungramadhani72 (https://github.com/Agungramadhani72)
 
