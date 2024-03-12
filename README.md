@@ -37,7 +37,7 @@ Proyek ini merupakan bagian dari Problem Based Learning (PBL) yang di selengarak
     - Nim: 4342311057
     - Peran: UI / UX 
     - Kelas: TRPL 2B Malam
-    - Github:vannkiboo
+    - Github:vannkiboo (https://github.com/vannkiboo)
 
 6. *Anggota Tim 5*
     - Nama: Agung Ramadhani Eka Setia 
