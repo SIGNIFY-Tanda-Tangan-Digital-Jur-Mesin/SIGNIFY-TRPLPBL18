@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Scanner</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            margin: 50px auto;
+            max-width: 500px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        #file-input {
+            background-color: #f1f3f4;
+        }
+
+        #image-preview {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #scan-result {
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center mb-4">QR Code Scanner</h1>
+        <div class="form-group">
+            <input type="file" accept="image/jpeg, image/png" class="form-control-file" id="file-input">
+        </div>
+        <div id="image-container" class="text-center"></div>
+        <div id="scan-result" class="text-center mt-3"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jsqr/dist/jsQR.js"></script>
+    <script>
+        document.getElementById('file-input').addEventListener('change', function(event) {
+            const file = event.target.files[0];
+            if (file && (file.type === 'image/jpeg' || file.type === 'image/png')) {
+                showImage(file);
+            } else {
+                alert('Mohon pilih file gambar JPG atau PNG.');
+            }
+        });
+
+        function showImage(file) {
+            const reader = new FileReader();
+            reader.onload = function(event) {
+                const image = new Image();
+                image.onload = function() {
+                    document.getElementById('image-container').innerHTML = '';
+                    const imagePreview = document.createElement('img');
+                    imagePreview.src = event.target.result;
+                    imagePreview.id = 'image-preview';
+                    document.getElementById('image-container').appendChild(imagePreview);
+
+                    scanQRCode(image);
+                };
+                image.src = event.target.result;
+            };
+            reader.readAsDataURL(file);
+        }
+
+        function scanQRCode(image) {
+            const canvas = document.createElement('canvas');
+            const context = canvas.getContext('2d');
+            canvas.width = image.width;
+            canvas.height = image.height;
+            context.drawImage(image, 0, 0, image.width, image.height);
+            
+            const imageData = context.getImageData(0, 0, canvas.width, canvas.height);
+            const code = jsQR(imageData.data, imageData.width, imageData.height);
+            if (code) {
+                document.getElementById('scan-result').innerText = 'Hasil Scan: ' + code.data;
+            } else {
+                document.getElementById('scan-result').innerText = 'Tidak dapat menemukan QR code.';
+            }
+        }
+        <a href="scanner.html">Pergi ke Scanner</a>
+
+    </script>
+</body>
+</html>
+
+
+
+
+
