@@ -182,8 +182,15 @@ body {
 			<form class="login">
 				<div class="login__field">
 					<i class="login__icon fas fa-user"></i>
-					<link rel="stylesheet" href="log.css">
-                    <input type="text" class="login__input" placeholder="User name / Email">
+					<select class="login__input" id="user_type">
+						<option value="" disabled selected>Select user type</option>
+						<option value="admin">Admin</option>
+						<option value="user">User</option>
+					</select>
+				</div>
+				<div class="login__field">
+					<i class="login__icon fas fa-user"></i>
+					<input type="text" class="login__input" placeholder="Username">
 				</div>
 				<div class="login__field">
 					<i class="login__icon fas fa-lock"></i>
@@ -195,7 +202,6 @@ body {
 				</button>				
 			</form>
 			<div class="social-login">
-				<h3>log in via</h3>
 				<div class="social-icons">
 					<a href="#" class="social-login__icon fab fa-instagram"></a>
 					<a href="#" class="social-login__icon fab fa-facebook"></a>
